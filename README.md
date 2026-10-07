@@ -1,20 +1,33 @@
 # Calculadora JavaScript
 
-Exercício prático de fundamentos de front-end recuperado e modernizado em 2026.
+Calculadora responsiva criada como exercício de fundamentos de front-end e revisada para aplicar práticas mais seguras de JavaScript.
 
-## O que foi atualizado
+## Funcionalidades
 
-- remoção do uso de `eval()`;
-- separação de HTML, CSS e JavaScript;
-- layout responsivo;
-- suporte a teclado;
-- estados de erro e operações básicas;
-- melhorias de semântica e acessibilidade.
+- operações de soma, subtração, multiplicação e divisão;
+- entrada por mouse ou teclado;
+- apagar último caractere e limpar operação;
+- tratamento de resultado inválido;
+- interface responsiva e navegação por teclado.
 
 ## Tecnologias
 
-HTML5, CSS3 e JavaScript sem frameworks.
+HTML5, CSS3 e JavaScript.
 
-> Este repositório representa um exercício de aprendizado e evolução técnica. Para um projeto completo de portfólio, veja o DeskFlow no perfil do GitHub.
+## Rodando localmente
+
+```bash
+git clone https://github.com/Santoszoi/calculadora7.git
+cd calculadora7
+python -m http.server 8000
+```
+
+Depois, acesse `http://localhost:8000/index.htm`.
+
+## O que pratiquei
+
+A revisão deste exercício serviu para separar estrutura, estilo e comportamento, retirar o uso de `eval()`, trabalhar eventos de teclado e melhorar semântica e acessibilidade.
+
+> Projeto de estudo. Os projetos principais do meu portfólio estão destacados no meu perfil.
 
 **Marcos Neves**
