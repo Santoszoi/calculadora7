@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Calculadora responsiva em JavaScript, recuperada como exercício prático de fundamentos front-end.">
+  <title>Calculadora JavaScript | Marcos Neves</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="calculator" aria-labelledby="title">
+      <header><p class="eyebrow">Exercício prático</p><h1 id="title">Calculadora</h1></header>
+      <output id="display" class="display" aria-live="polite">0</output>
+      <div class="keys" aria-label="Teclado da calculadora">
+        <button data-action="clear" class="utility">C</button><button data-action="backspace" class="utility" aria-label="Apagar último caractere">⌫</button><button data-value="/" class="operator">÷</button><button data-value="*" class="operator">×</button>
+        <button data-value="7">7</button><button data-value="8">8</button><button data-value="9">9</button><button data-value="-" class="operator">−</button>
+        <button data-value="4">4</button><button data-value="5">5</button><button data-value="6">6</button><button data-value="+" class="operator">+</button>
+        <button data-value="1">1</button><button data-value="2">2</button><button data-value="3">3</button><button data-action="calculate" class="equals">=</button>
+        <button data-value="0" class="zero">0</button><button data-value=".">,</button>
+      </div>
+      <p class="hint">Também funciona com teclado: números, + − × ÷, Enter, Backspace e Escape.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
