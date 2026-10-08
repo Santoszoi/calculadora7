@@ -1,5 +1,7 @@
 # Calculadora JavaScript
 
+**[Live demo](https://calculadora7-fnbocqlwi-santoszois-projects.vercel.app)**
+
 Calculadora responsiva criada como exercício de fundamentos de front-end e revisada para aplicar práticas mais seguras de JavaScript.
 
 ## Funcionalidades
