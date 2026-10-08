@@ -24,7 +24,7 @@ cd calculadora7
 python -m http.server 8000
 ```
 
-Depois, acesse `http://localhost:8000/index.htm`.
+Depois, acesse `http://localhost:8000/`.
 
 ## Detalhes técnicos
 
